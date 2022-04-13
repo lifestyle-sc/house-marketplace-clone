@@ -4,7 +4,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDDMRByx8rKS2VFVhn_mWmE6guezHSzRTg",
+  apiKey: process.env.REACT_APP_GEOCODE_API_KEY,
   authDomain: "house-marketplace-app-6beb1.firebaseapp.com",
   projectId: "house-marketplace-app-6beb1",
   storageBucket: "house-marketplace-app-6beb1.appspot.com",
