@@ -6,11 +6,11 @@ import Slider from "../components/Slider"
 const Explore = () => {
   return (
     <div className="p-5">
-      <header className="mb-2">
+      {/* <header className="mb-2">
       <h1 className="text-2xl font-black">
           Explore
       </h1>
-      </header>
+      </header> */}
 
       <main className="mb-16">
         <Slider />
